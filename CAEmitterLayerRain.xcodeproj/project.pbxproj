@@ -15,6 +15,10 @@
 		9FC43FF41F3807F50005049E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC43FF21F3807F50005049E /* LaunchScreen.storyboard */; };
 		9FC43FFF1F3807F50005049E /* CAEmitterLayerRainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC43FFE1F3807F50005049E /* CAEmitterLayerRainTests.m */; };
 		9FC4400A1F3807F50005049E /* CAEmitterLayerRainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC440091F3807F50005049E /* CAEmitterLayerRainUITests.m */; };
+		9FC4401C1F380EBD0005049E /* Oval@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC440191F380EBD0005049E /* Oval@2x.png */; };
+		9FC4401D1F380EBD0005049E /* Oval@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4401A1F380EBD0005049E /* Oval@3x.png */; };
+		9FC4401E1F380EBD0005049E /* Ovalwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4401B1F380EBD0005049E /* Ovalwater.png */; };
+		9FC440211F380FC70005049E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC440201F380FC70005049E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		9FC440051F3807F50005049E /* CAEmitterLayerRainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerRainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC440091F3807F50005049E /* CAEmitterLayerRainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerRainUITests.m; sourceTree = "<group>"; };
 		9FC4400B1F3807F50005049E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC440191F380EBD0005049E /* Oval@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval@2x.png"; sourceTree = "<group>"; };
+		9FC4401A1F380EBD0005049E /* Oval@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval@3x.png"; sourceTree = "<group>"; };
+		9FC4401B1F380EBD0005049E /* Ovalwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ovalwater.png; sourceTree = "<group>"; };
+		9FC440201F380FC70005049E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC440211F380FC70005049E /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				9FC43FFD1F3807F50005049E /* CAEmitterLayerRainTests */,
 				9FC440081F3807F50005049E /* CAEmitterLayerRainUITests */,
 				9FC43FE21F3807F50005049E /* Products */,
+				9FC4401F1F380FC70005049E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +111,9 @@
 		9FC43FE31F3807F50005049E /* CAEmitterLayerRain */ = {
 			isa = PBXGroup;
 			children = (
+				9FC440191F380EBD0005049E /* Oval@2x.png */,
+				9FC4401A1F380EBD0005049E /* Oval@3x.png */,
+				9FC4401B1F380EBD0005049E /* Ovalwater.png */,
 				9FC43FE71F3807F50005049E /* AppDelegate.h */,
 				9FC43FE81F3807F50005049E /* AppDelegate.m */,
 				9FC43FEA1F3807F50005049E /* ViewController.h */,
@@ -138,6 +151,14 @@
 				9FC4400B1F3807F50005049E /* Info.plist */,
 			);
 			path = CAEmitterLayerRainUITests;
+			sourceTree = "<group>";
+		};
+		9FC4401F1F380FC70005049E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC440201F380FC70005049E /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +272,9 @@
 			files = (
 				9FC43FF41F3807F50005049E /* LaunchScreen.storyboard in Resources */,
 				9FC43FF11F3807F50005049E /* Assets.xcassets in Resources */,
+				9FC4401C1F380EBD0005049E /* Oval@2x.png in Resources */,
+				9FC4401E1F380EBD0005049E /* Ovalwater.png in Resources */,
+				9FC4401D1F380EBD0005049E /* Oval@3x.png in Resources */,
 				9FC43FEF1F3807F50005049E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +542,7 @@
 				9FC440101F3807F50005049E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FC440111F3807F50005049E /* Build configuration list for PBXNativeTarget "CAEmitterLayerRainTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				9FC440131F3807F50005049E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FC440141F3807F50005049E /* Build configuration list for PBXNativeTarget "CAEmitterLayerRainUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				9FC440161F3807F50005049E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
